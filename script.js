@@ -1,0 +1,1 @@
+const imgEye = document.querySelector('.img-eye'); const inputPass = document.querySelector('.input-pass'); imgEye.addEventListener('click', function() {if (inputPass.getAttribute('type') == 'password') {inputPass.setAttribute('type', 'text') } else if (inputPass.getAttribute('type') == 'text') {inputPass.setAttribute("type","password") } });
